@@ -5,7 +5,7 @@ local Section_cred = Tab_cred:NewSection("Ctrl click tp")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Main")
 Section_cred:NewButton("copy my github", "", function()
-	setclipboard("")
+	setclipboard("https://github.com/Varap228/-Reaction-Test-script")
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Copy",
 	Text = "My github copied to clipboard", 
@@ -13,7 +13,7 @@ Section_cred:NewButton("copy my github", "", function()
 })
 end)
 Section_cred:NewButton("copy my pastebin", "", function()
-	setclipboard("")
+	setclipboard("https://pastebin.com/ij04VicR")
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Copy",
 	Text = "My pastebin copied to clipboard", 
