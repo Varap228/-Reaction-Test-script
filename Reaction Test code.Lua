@@ -1,10 +1,10 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("By Varap228", "RJTheme3")
-local Tab_cred = Window:NewTab("Credits")
-local Section_cred = Tab_cred:NewSection("Ctrl click tp")
+local Tab_ccred = Window:NewTab("Credits")
+local Section_ccred = Tab_ccred:NewSection("Ctrl click tp")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Main")
-Section_cred:NewButton("copy my github", "", function()
+Section_ccred:NewButton("copy my github", "", function()
 	setclipboard("https://github.com/Varap228/-Reaction-Test-script")
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Copy",
@@ -12,7 +12,7 @@ Section_cred:NewButton("copy my github", "", function()
 	Icon = ""
 })
 end)
-Section_cred:NewButton("copy my pastebin", "", function()
+Section_ccred:NewButton("copy my pastebin", "", function()
 	setclipboard("https://pastebin.com/ij04VicR")
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Copy",
