@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("By Varap228", "RJTheme3")
-local Tab = Window:NewTab("Credits")
+local Tab_cred = Window:NewTab("Credits")
 local Section_cred = Tab_cred:NewSection("Ctrl click tp")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Main")
